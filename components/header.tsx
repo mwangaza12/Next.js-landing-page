@@ -5,6 +5,7 @@ import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { cn } from '@/lib/utils'
+import { ThemeToggle } from './toggle-theme'
 
 const menuItems = [
     { name: 'Features', href: '#link' },
@@ -102,6 +103,7 @@ export const HeroHeader = () => {
                                         <span>Get Started</span>
                                     </Link>
                                 </Button>
+                                <ThemeToggle />
                             </div>
                         </div>
                     </div>
